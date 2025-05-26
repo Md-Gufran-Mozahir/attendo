@@ -1,0 +1,86 @@
+/* Button styles for consistent, modern look across the application */
+
+.btn-modern {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-modern:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-modern:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-modern i {
+  font-size: 0.9em;
+}
+
+/* Primary button styles */
+.primary-btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+}
+
+.primary-btn:hover {
+  background-color: #3a7ac8;
+}
+
+/* Small button variant */
+.btn-sm {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+/* Action button styles */
+.view-btn {
+  background-color: #E3F2FD;
+  color: #1976D2;
+  border: 1px solid #BBDEFB;
+}
+
+.view-btn:hover {
+  background-color: #BBDEFB;
+}
+
+.edit-btn {
+  background-color: #E8F5E9;
+  color: #388E3C;
+  border: 1px solid #C8E6C9;
+}
+
+.edit-btn:hover {
+  background-color: #C8E6C9;
+}
+
+.close-btn {
+  background-color: #FFF8E1;
+  color: #FFA000;
+  border: 1px solid #FFECB3;
+}
+
+.close-btn:hover {
+  background-color: #FFECB3;
+}
+
+.delete-btn {
+  background-color: #FFEBEE;
+  color: #D32F2F;
+  border: 1px solid #FFCDD2;
+}
+
+.delete-btn:hover {
+  background-color: #FFCDD2;
+} 

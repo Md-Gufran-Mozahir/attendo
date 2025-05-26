@@ -1,0 +1,26 @@
+/* AdminDashboard.css */
+
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+}
+
+.admin-content {
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Tabs and content styles */
+.MuiContainer-root {
+  padding-top: 1rem;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .MuiContainer-root {
+    padding: 0.5rem;
+  }
+} 

@@ -1,0 +1,122 @@
+.attendance-view-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.attendance-content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.navigation-buttons {
+  margin-bottom: 20px;
+}
+
+.session-details {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.session-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.session-status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.session-status.open {
+  background-color: #e3f9e5;
+  color: #1e7e34;
+}
+
+.session-status.closed {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.header-with-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.attendance-table-wrapper {
+  overflow-x: auto;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.attendance-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.attendance-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+.status-badge {
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.status-present {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-absent {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-late {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.location-coords {
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.no-records {
+  text-align: center;
+  padding: 40px 0;
+  color: #6c757d;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+} 
